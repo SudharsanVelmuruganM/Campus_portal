@@ -35,10 +35,10 @@ public class SecurityConfig {
 
         CorsConfiguration configuration = new CorsConfiguration();
 
-        configuration.setAllowedOrigins(
+        configuration.setAllowedOriginPatterns(
         List.of(
                 "http://localhost:5173",
-                "https://campus-portal-theta.vercel.app"
+                "https://*.vercel.app"
         )
 );
 
