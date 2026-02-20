@@ -14,7 +14,7 @@ import com.campus.campus.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Component;
+// import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
