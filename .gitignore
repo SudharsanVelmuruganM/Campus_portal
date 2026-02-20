@@ -1,0 +1,14 @@
+﻿# backend
+campus/target
+campus/.idea
+
+# frontend
+campus-portal/node_modules
+campus-portal/dist
+
+# editor files
+.vscode
+.idea
+
+# env files
+.env
