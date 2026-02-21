@@ -10,6 +10,7 @@ import java.time.LocalDateTime;
 import jakarta.persistence.FetchType;
 
 @Entity
+@Table(name = "users")
 @Getter
 @Setter
 public class User {
